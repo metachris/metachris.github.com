@@ -55,7 +55,9 @@ singlehtml:
 	$(SPHINXBUILD) -b singlehtml $(ALLSPHINXOPTS) $(BUILDDIR)/singlehtml
 	@echo
 	@echo "Build finished. The HTML page is in $(BUILDDIR)/singlehtml."
-	cp build/singlehtml/index.html .
+	sed "s/_static/static/g" build/singlehtml/index.html > index.html
+	rm -rf static
+	cp -pr build/singlehtml/_static static
 
 pickle:
 	$(SPHINXBUILD) -b pickle $(ALLSPHINXOPTS) $(BUILDDIR)/pickle
