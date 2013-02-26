@@ -44,8 +44,7 @@
 <h1>Raspberry Pi Tips &amp; Tricks<a class="headerlink" href="#raspberry-pi-tips-tricks" title="Permalink to this headline">¶</a></h1>
 <p>A collection of stuff to help you get started quickly and right footed.</p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="index.html#document-getting_started">Preface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="index.html#document-getting_started#getting-started">Getting Started</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-getting_started">Getting Started</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="index.html#document-getting_started#essential-websites">Essential Websites</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index.html#document-getting_started#prerequisites">Prerequisites</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index.html#document-getting_started#preparing-the-sd-card">Preparing the SD Card</a></li>
@@ -53,6 +52,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="index.html#document-getting_started#programming-with-python">Programming with Python</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="index.html#document-getting_started#python-tutorial">Python Tutorial</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-getting_started#python-gpio-programming">Python GPIO Programming</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="index.html#document-tips_and_tricks">Tips &amp; Tricks</a><ul>
@@ -61,13 +61,9 @@
 </li>
 </ul>
 <div class="toctree-wrapper compound">
-<span id="document-getting_started"></span><div class="section" id="preface">
-<h2>Preface<a class="headerlink" href="#preface" title="Permalink to this headline">¶</a></h2>
-<p>This guide is under construnction. Feel free to contact
-me via <a class="reference external" href="mailto:chris&#37;&#52;&#48;linuxuser&#46;at">chris<span>&#64;</span>linuxuser<span>&#46;</span>at</a> with feedback and ideas.</p>
-</div>
-<div class="section" id="getting-started">
+<span id="document-getting_started"></span><div class="section" id="getting-started">
 <h2>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h2>
+<p>This guide is under construnction. Feel free to contact me via <a class="reference external" href="mailto:chris&#37;&#52;&#48;linuxuser&#46;at">chris<span>&#64;</span>linuxuser<span>&#46;</span>at</a> with feedback and ideas.</p>
 <div class="section" id="essential-websites">
 <h3>Essential Websites<a class="headerlink" href="#essential-websites" title="Permalink to this headline">¶</a></h3>
 <p>These are some of the essential websites around the Raspberry Pi:</p>
@@ -121,21 +117,30 @@ all Raspberries, as well as part of all Linux and OSX distributions. You can sta
 <span class="go">&gt;&gt;&gt;</span>
 </pre></div>
 </div>
-<p><strong>Download Geany</strong></p>
-<ul class="simple">
-<li><a class="reference external" href="http://www.geany.org/Download/Releases">http://www.geany.org/Download/Releases</a></li>
-</ul>
-<p>Geany is a free Python IDE which makes it super easy to write and test Python code. A good IDE will save you countless hours!</p>
+<p><strong>Download Geany</strong> (<a class="reference external" href="http://www.geany.org/Download/Releases">geany.org/download</a>):</p>
+<div class="highlight-python"><pre>$ sudo apt-get install geany</pre>
+</div>
+<p>Geany is a free Python IDE which makes it super easy to write and test Python code. A good IDE will save you countless hours!
+Other free IDE&#8217;s include Eclipse, ...</p>
 <div class="section" id="python-tutorial">
 <h3>Python Tutorial<a class="headerlink" href="#python-tutorial" title="Permalink to this headline">¶</a></h3>
 <p>A great way to get to know Python is to just try it out. Make sure you set aside enough time (2 hours min.)!</p>
 <ul class="simple">
 <li><a class="reference external" href="http://docs.python.org/2/tutorial/introduction.html">http://docs.python.org/2/tutorial/introduction.html</a></li>
 </ul>
-<p>Now this is very important: <strong>type out each and every command in this tutorial yourself!</strong>. Trust me
-on this. Besides better internalization typing them out makes it very easy to play with variations
-(eg. what happens if i change this...?).</p>
+<p><strong>Type out each and every command in this tutorial yourself!</strong>. Trust me
+on this. It makes it super easy to follow your curiosity and play with code
+variations (eg. what happens if i change this...?).</p>
 <p>Have fun!</p>
+</div>
+<div class="section" id="python-gpio-programming">
+<h3>Python GPIO Programming<a class="headerlink" href="#python-gpio-programming" title="Permalink to this headline">¶</a></h3>
+<p>There are several libraries which make it easy to work with the GPIOs:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://pypi.python.org/pypi/RPIO">RPIO</a></li>
+<li><a class="reference external" href="http://pypi.python.org/pypi/RPi.GPIO">RPi.GPIO</a></li>
+<li><a class="reference external" href="https://github.com/WiringPi">WiringPi</a></li>
+</ul>
 </div>
 </div>
 <span id="document-tips_and_tricks"></span><div class="section" id="tips-tricks">
@@ -168,8 +173,7 @@ rm ~/test.tmp</pre>
         <div class="sphinxsidebarwrapper">
   <h3><a href="index.html#document-index">Table Of Contents</a></h3>
   <ul>
-<li class="toctree-l1"><a class="reference internal" href="index.html#document-getting_started">Preface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="index.html#getting-started">Getting Started</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-getting_started">Getting Started</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="index.html#essential-websites">Essential Websites</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index.html#prerequisites">Prerequisites</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index.html#preparing-the-sd-card">Preparing the SD Card</a></li>
@@ -177,6 +181,7 @@ rm ~/test.tmp</pre>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="index.html#programming-with-python">Programming with Python</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="index.html#python-tutorial">Python Tutorial</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#python-gpio-programming">Python GPIO Programming</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="index.html#document-tips_and_tricks">Tips &amp; Tricks</a><ul>

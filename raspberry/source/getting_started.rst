@@ -1,12 +1,8 @@
-Preface
-=======
-
-This guide is under construnction. Feel free to contact
-me via chris@linuxuser.at with feedback and ideas.
-
-
 Getting Started
 ===============
+
+This guide is under construnction. Feel free to contact me via chris@linuxuser.at with feedback and ideas.
+
 
 Essential Websites
 ------------------
@@ -65,11 +61,13 @@ Now you can simply enter Python commands and they'll be executed::
     10
     >>> 
 
-**Download Geany** 
+**Download Geany** (`geany.org/download <http://www.geany.org/Download/Releases>`_)::
 
-* http://www.geany.org/Download/Releases
+    $ sudo apt-get install geany
+
 
 Geany is a free Python IDE which makes it super easy to write and test Python code. A good IDE will save you countless hours!
+Other free IDE's include Eclipse, ...
 
 
 Python Tutorial
@@ -79,10 +77,19 @@ A great way to get to know Python is to just try it out. Make sure you set aside
 
 * http://docs.python.org/2/tutorial/introduction.html
 
-Now this is very important: **type out each and every command in this tutorial yourself!**. Trust me
-on this. Besides better internalization typing them out makes it very easy to play with variations
-(eg. what happens if i change this...?).
+**Type out each and every command in this tutorial yourself!**. Trust me
+on this. It makes it super easy to follow your curiosity and play with code
+variations (eg. what happens if i change this...?).
 
 Have fun!
 
+
+Python GPIO Programming
+-----------------------
+
+There are several libraries which make it easy to work with the GPIOs:
+
+* `RPIO <http://pypi.python.org/pypi/RPIO>`_
+* `RPi.GPIO <http://pypi.python.org/pypi/RPi.GPIO>`_
+* `WiringPi <https://github.com/WiringPi>`_
 
