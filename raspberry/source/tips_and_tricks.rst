@@ -1,6 +1,18 @@
 Tips & Tricks
 =============
 
+System Update
+-------------
+
+Do it regularly! With Raspbian (or any Debian) you can do it with ``apt-get``:
+
+::
+
+    $ sudo apt-get update
+    $ sudo apt-get upgrade
+    $ sudo apt-get dist-upgrade
+
+
 SD Card Performance
 -------------------
 
