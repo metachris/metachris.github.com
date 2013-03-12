@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Tue, 12 Mar 2013 22:34:04 +0100
+Source: rpio
+Binary: python-rpio python3-rpio
+Architecture: source armhf
+Version: 0.9.4
+Distribution: unstable
+Urgency: low
+Maintainer: Chris Hager <chris@linuxuser.at>
+Changed-By: Chris Hager <chris@linuxuser.at>
+Description: 
+ python-rpio - RPIO super GPIO
+ python3-rpio - Python 3 RPIO
+Changes: 
+ rpio (0.9.4) unstable; urgency=low
+ .
+   * Debounce timeout for interrupts (Closes: #XXXXXX)
+   * Threaded argument for wait_for_interrupts()
+   * Refactoring
+Checksums-Sha1: 
+ 1d03e1d6247493a142b3cd27356e9b92ca2a17d2 1232 rpio_0.9.4.dsc
+ a1c3528e50ff227f141e3e407436733e0df59927 77436 rpio_0.9.4.tar.gz
+ 1a931e39c3ecc957e0c004345c5b3822de982717 44436 python-rpio_0.9.4_armhf.deb
+ b0c1e3d8f9d8d1fb085189ffbd34eaaad29037b4 25282 python3-rpio_0.9.4_armhf.deb
+Checksums-Sha256: 
+ ab17e319608a28cb8f9256a192e131db1ee24ce4daf11a419d21be89b9508dc5 1232 rpio_0.9.4.dsc
+ 811198b56306f9bab8b73bf8fb181777a53662a1faaf22b5daea2db4a427dfc6 77436 rpio_0.9.4.tar.gz
+ 1f1e678d0db6a181a3a14e06a751595aa5e0d5c483ba6c19719972fbd394aaf8 44436 python-rpio_0.9.4_armhf.deb
+ 5dbfdcc0aa15b054d001d95275ae93602c8656d7009bb4c6332396edd1760cc7 25282 python3-rpio_0.9.4_armhf.deb
+Files: 
+ c2f8e87b13282ef20fb4be93274d316c 1232 python optional rpio_0.9.4.dsc
+ bc06efe74fab91bc9c6fc9c8d4d1efc6 77436 python optional rpio_0.9.4.tar.gz
+ 999b0ea44956f4393fe3afea2e5c207f 44436 python optional python-rpio_0.9.4_armhf.deb
+ 1854aa0a183ea519bc3805c7641b0297 25282 python optional python3-rpio_0.9.4_armhf.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJRP6jaAAoJEAsUf4eukZZiczQIAKbjaUeiWbQU2xmitzeG3u9S
+XyA/IvcvQpAV6euHyWycXTFVHFIwAJNrWYRR1E3X8l2GJyeKmD06rd0dtGuTQoK7
+tYQ2+xFDWkYwRPuo5dgUXuC5vr3oN9egSdxGoiQ6N+GX7WDHcFaYYk4xwXUfwg6r
+5SuUjy4A+1/LvONn/I1hhTGkAYhcrvpY/tHLn6aWUp6xCO03SvYAknI/wL+SuuJK
+WKSfVytN5mMROy94vZMKGf+k+k6glJbBKzmc8gEbji0nNrML0goCLl8R1zk64E9X
+TOM2ZT2PmaodMIp1xeCTSoXf37OCvMBPQ1DxVtL5HTPSbuZSUbcF3dzJMIOvVQE=
+=R34c
+-----END PGP SIGNATURE-----

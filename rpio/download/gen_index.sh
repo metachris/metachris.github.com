@@ -4,7 +4,7 @@ set -e
 # Update latest symlink
 rm -f latest
 for x in `ls -d */`; do version_latest=$x; done
-ln -s $version_latest latest
+cp -pr $version_latest latest
 
 rm -f index.md
 rm -f index.html
