@@ -1,4 +1,4 @@
 #!/bin/bash
 set -e
 
-pandoc index.md -o index.html
+pandoc -s -S index.md -o index.html -t html5
