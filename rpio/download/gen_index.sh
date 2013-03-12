@@ -2,7 +2,7 @@
 set -e
 
 # Update latest symlink
-rm -f latest
+rm -rf latest
 for x in `ls -d */`; do version_latest=$x; done
 cp -pr $version_latest latest
 
