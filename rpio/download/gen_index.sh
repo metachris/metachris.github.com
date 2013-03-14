@@ -1,10 +1,14 @@
 #!/bin/bash
 set -e
 
+if [ "$1" == "" ]; then
+    echo "use: $0 <latest_version>"
+    exit 1
+fi
+
 # Update latest symlink
 rm -rf latest
-for x in `ls -d */`; do version_latest=$x; done
-cp -pr $version_latest latest
+cp -pr $1 latest
 
 rm -f index.md
 rm -f index.html
