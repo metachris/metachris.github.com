@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 15 Mar 2013 13:58:49 +0100
+Source: rpio
+Binary: python-rpio python3-rpio
+Architecture: source armhf
+Version: 0.10.1
+Distribution: unstable
+Urgency: low
+Maintainer: Chris Hager <chris@linuxuser.at>
+Changed-By: Chris Hager <chris@linuxuser.at>
+Description: 
+ python-rpio - Advanced GPIO module for Python 2.x. Extends RPi.GPIO with
+ python3-rpio - Advanced GPIO module for Python 3.x. Extends RPi.GPIO with
+Changes: 
+ rpio (0.10.1) unstable; urgency=low
+ .
+   * Updated debian/control Standards-Version to 3.9.3.1
+Checksums-Sha1: 
+ 2143eb61c8165b9c280cbfc5369922bb48661c62 1238 rpio_0.10.1.dsc
+ 051f089bb3484758411861db0a07f24e2c68cd8a 79145 rpio_0.10.1.tar.gz
+ 6fb666367039bdc9e8a3db18ffb323997a0d9a2f 44908 python-rpio_0.10.1_armhf.deb
+ 195b4481ec94d87453f90cb2e5e3c6dc8c21ccb8 26016 python3-rpio_0.10.1_armhf.deb
+Checksums-Sha256: 
+ 8ee00372ef00d72cb524cf80d8a1b6d973397a419e9a09e09386a68b51e9dd9b 1238 rpio_0.10.1.dsc
+ 59f97a9b525fb471428f39fa43d6f99c639de718e37b07a2a7abdf7e1bd98f0b 79145 rpio_0.10.1.tar.gz
+ 44b6ce24ebe9628facab0ed3489a2b2d4dbf989c0fc8b66664c640aa643be369 44908 python-rpio_0.10.1_armhf.deb
+ 2c1128b1e2ff3e9689f24ef46b360c6037fc8f7f5aa0f0f132e2800a8fdbc6a8 26016 python3-rpio_0.10.1_armhf.deb
+Files: 
+ 428108b5cefd1a8a85c4d9ab6a5fb965 1238 python optional rpio_0.10.1.dsc
+ c8863cff5c7ab716f43594fceafe031f 79145 python optional rpio_0.10.1.tar.gz
+ 478d0b4e7ce1625e16ab31ab88e00961 44908 python optional python-rpio_0.10.1_armhf.deb
+ db1099200c38e85f168bb6f91ead98c7 26016 python optional python3-rpio_0.10.1_armhf.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJRQxz0AAoJEAsUf4eukZZiz/YIAJLmJbtjER/0uxvcZHqXL2nJ
+LZRyD94NayKNlsoR0nqKSW2VdmHxRMEslWAUNJTd5ayC/CHKiGdQctgtpP4wTZ2j
+yp7AvnpIW3+4aGUyHwNIAyqtkdE2R7hBW+4CQyJPC4uaHMAdFg8dDfG7YmS5+L2Z
+m08awJFa0YKe1P79S6uSyoPZ9STdy7AZyjMJwB6Uukm4rg0EG/cqsTV6j2xYLeZK
+JgSt2TgKdX1hIccm1jE6W64jaO/lLTrwgYCXzLvaqGMHQybueaPHL3Jo92pmJ4zr
+Hg7qdY8+RSTJtzj1xg6mY6vLsOtYky6PblZyEbvqKcbZku5/f7c7fzNpT4TxGsA=
+=BIem
+-----END PGP SIGNATURE-----
